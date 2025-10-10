@@ -3,7 +3,7 @@ layout: HW Problem
 title: Statics HW Problem
 description: Statics HW Problem with rigid bar, 3 pins, and actuator
 technologies: [none]
-image: /assets/images/"Statics Portfolio Picture.jpg"
+image: "/assets/images/Statics Portfolio Picture.jpg"
 ---
 
 
