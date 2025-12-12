@@ -6,9 +6,13 @@ technologies: [n/a]
 image: /assets/images/radio-machine-cad.jpg
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+For homework, we were asked to design a frame/mechanism to lift the maximum possible weight to the highest possible height. 
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+There are 4 main constraints. One, the mechanism must exist in a 2D design space that is 150 cm long by 50 cm tall. Two, the bar must be a fixed length. Three, there must be 3 pin supports, two of which need to be mounted to the ground. Four, the design must use a linear actuator.
+
+The main objective of the problem is to lift the maximum possible weight to the highest possible height.
+
+In terms of degrees of freedom, there are 3 main ones: the type of actuator, the length of the bar, and the placement of the pins. 
 
 ![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
