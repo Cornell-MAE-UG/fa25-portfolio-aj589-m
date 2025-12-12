@@ -19,26 +19,15 @@ This next section will discuss the static analysis I conducted to determine my f
 
 The image below shows my final design.
 
-<p align="center">
-	<img src="{{ "/assets/images/statics-step1.jpg" | relative_url }}" alt="Final design" style="max-width:800px; width:100%; height:auto;">
-</p>
-
-
-
-
+![statics page 1]({{ "/assets/images/statics-step1.jpg" | relative_url }}){: width="400px"}
 
 The second part of the homework asked to consider the same situation, but the beam is now in bending. To find the maximum deflection of the beam and choose the most mass-efficent beam design, I conducted the following analysis.
 
 For the purpose of simplicity, I will be treating this system as if it is pinned-pinned because the actuator is pinned close to the end of the beam. Because it is pinned-pinned, the midspan of the beam will experience max deflection. Knowing that the additional weight acts downwards in accordance with gravity, I can assume that the max deflection will also occur when the bar is horizontal. Taking these two conclusions, I can assume that the weight will be placed at the midspan and the linear actuator will exert no force on the beam. Below, I included a picture of my work used to determine the location of the max deflection.
 
-<p align="center">
-	<img src="{{ "/assets/images/deflection.JPG" | relative_url }}" alt="Final design" style="max-width:800px; width:100%; height:auto;">
-</p>
-
+![statics page 1]({{ "/assets/images/deflection.JPG" | relative_url }}){: width="400px"}
 
 
 The next part of the homework asked to determine a beam design that would allow the vertical deflection to be below 2% of its length and be the most mass-efficent possible. I chose to use rolled steel for this design, which has a Young's Modulus of 200 GPa. To maximize the value of I, I chose a wide-flanged I beam with mass concentrated to the outer edges. I assumed that the actuator would be applying its max force, which gave me the opportunity to conduct moment balance analysis. This analysis led me to find the max possible weight and therefore, the final dimensions. Below, you will find the work I did that led me to these conclusions.
 
-<p align="center">
-	<img src="{{ "/assets/images/beam.jpg" | relative_url }}" alt="Final design" style="max-width:800px; width:100%; height:auto;">
-</p>
+![statics page 1]({{ "/assets/images/beam.jpg" | relative_url }}){: width="400px"}
