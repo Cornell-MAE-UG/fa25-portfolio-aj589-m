@@ -14,9 +14,12 @@ The main objective of the problem is to lift the maximum possible weight to the 
 
 In terms of degrees of freedom, there are 3 main ones: the type of actuator, the length of the bar, and the placement of the pins. 
 
+This next section will discuss the static analysis I conducted to determine my final design. To start, I chose the RSX linear actuator because out of all the actuators in the catalog, it was able to supply the most force. Next, I conducted torque analysis. I thought about the design like a door, the closer to the hinges I push on a door, the harder it is to swing it open. I wanted to maximize the amount of torque applied to the bar in order to raise it to the max height. Using this concept and therefore the equation M = r x F, I decided to place the actuator closest to do end of the bar - furthest from the pivot.
+
+The image below shows my final design.
+
 ![Shaded rendering of earlier version]({{ "/assets/images/statics-step1.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-This next section will discuss the static analysis I conducted to determine my final design.
 
 Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
 
